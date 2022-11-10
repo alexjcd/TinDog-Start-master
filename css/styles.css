@@ -1,6 +1,32 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
 #idBody{
   font-family: 'Montserrat', sans-serif;
 }
 #title{
   background-color: #FF5858;
+}
+h1{
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.navbar{
+  font-family: 'Ubuntu', sans-serif;
+}
+.navbar-item{
+  color: grey;
+}
+.imgDog{
+  transform: rotate(25deg);
+  width: 95%;
+  padding-left: 35px;
+}
+.btnMarket{
+  min-width: 150px;
 }
