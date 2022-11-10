@@ -1,10 +1,12 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
-#idBody{
-  font-family: 'Montserrat', sans-serif;
+body{
+  font-family: 'Montserrat';
+
 }
 #title{
   background-color: #FF5858;
+  color: white;
 }
 h1{
   font-family: 'Montserrat';
@@ -17,16 +19,27 @@ h1{
   padding: 3% 15%;
 }
 .navbar{
-  font-family: 'Ubuntu', sans-serif;
+padding: 0 0 4.5rem;
 }
-.navbar-item{
-  color: grey;
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+
+}
+.nav-link{
+  font-family: 'Montserrat-light';
+  color: #B2B2B2;
+  font-weight:bold;
+  font-size: 1.2rem;
+}
+.nav-item{
+  padding: 0 18px;
 }
 .imgDog{
-  transform: rotate(25deg);
-  width: 95%;
-  padding-left: 35px;
+  transform: rotate(20deg);
+padding-top: 5%;
 }
 .btnMarket{
-  min-width: 150px;
+  min-width: 160px;
+  margin: 5% 3% 5% 0;
 }
