@@ -10,10 +10,21 @@ body{
 }
 h1{
   font-family: 'Montserrat';
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
-
+}
+h3{
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+p{
+  font-weight:normal;
+  color: black;
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 200;
 }
 .container-fluid{
   padding: 3% 15%;
@@ -36,10 +47,21 @@ padding: 0 0 4.5rem;
   padding: 0 18px;
 }
 .imgDog{
-  transform: rotate(20deg);
+  transform: rotate(25deg);
+  width: 60%;
+  min-width: 300px;
 padding-top: 5%;
 }
 .btnMarket{
   min-width: 160px;
   margin: 5% 3% 5% 0;
 }
+.rowFeature{
+  text-align: center;
+}
+.iconFeature{
+  /* font-size: 2.5rem; */
+  color: #FF5858;
+  line-height: 2;
+}
+.iconFeature:hover { color: #80489C; }
