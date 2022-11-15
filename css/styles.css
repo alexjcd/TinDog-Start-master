@@ -1,5 +1,6 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
+
 body{
   font-family: 'Montserrat';
 
@@ -8,11 +9,25 @@ body{
   background-color: #FF5858;
   color: white;
 }
+#titleColumn{
+  position: relative;
+  z-index: 1;
+}
+@media (min-width: 1111px){
+  #titleColumn{
+    position: static;
+  }
+}
 h1{
   font-family: 'Montserrat';
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
+}
+@media (max-width: 1111px) {
+  h1{
+    text-align: center;
+  }
 }
 h2{
   font-family: 'Montserrat';
@@ -61,20 +76,28 @@ padding: 0 0 4.5rem;
 .nav-item{
   padding: 0 18px;
 }
-#titleColumn{
-  position: relative;
-  z-index: 1;
-}
-.imgDog{
-  transform: rotate(20deg);
-  width: 23%;
-  min-width: 300px;
-/* padding-top: 5%; */
-position: absolute;
-z-index: 0;
-right: 20%;
-}
 
+.imgDog{
+  width: 23%;
+ min-width: 250px;
+ /* padding-left: 25%; */
+}
+@media (min-width: 1111px ) {
+  .imgDog{
+    padding-left: 0;
+    transform: rotate(20deg);
+    width: 23%;
+    /* min-width: 300px; */
+  /* padding-top: 5%; */
+  position: absolute;
+  z-index: 0;
+  right: 20%;
+  }
+}
+.btnMarket{
+  min-width: 160px;
+  margin: 5% 3% 5% 0;
+}
 /* Features section */
 #features{
   margin: 0;
@@ -83,10 +106,7 @@ right: 20%;
   padding: 4% 0;
   /* z-index: 1; */
 }
-.btnMarket{
-  min-width: 160px;
-  margin: 5% 3% 5% 0;
-}
+
 .rowFeature{
   text-align: center;
 }
@@ -165,4 +185,20 @@ margin: 20px 20px ;
 }
 .pricingColumn{
   padding: 3% 2%;
+}
+/* CTA section */
+#cta{ text-align: center;
+background-color: #FF5858;
+color: #fff;
+padding: 1.5rem 0;
+}
+/* Footer section */
+#footer{
+  background-color: #fff;
+  text-align: center;
+}
+.footerIcon{
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: 5%;
 }
